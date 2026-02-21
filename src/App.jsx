@@ -6,6 +6,8 @@ import Regstir from "./pages/Regstir";
 import Footer from "./components/Footer";
 import Shop from "./pages/Shop";
 import MinLayuot from "./components/MinLayuot";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -14,7 +16,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<MinLayuot />}>
             <Route index element={<Home />}></Route>
-            <Route path="cart" element={<Cart />}></Route>
+            <Route path="about" element={<About />}></Route>
+            <Route path="contact" element={<Contact />}></Route>
             <Route path="shop" element={<Shop />}></Route>
           </Route>
           <Route path="/login" element={<Login />}></Route>
