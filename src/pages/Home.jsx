@@ -1,11 +1,11 @@
-import MyImg from "../assets/image.png";
+import myImg from "../assets/Image.png";
 export default function Home() {
   return (
     <div className="w-full bg-Img bg-MinWarmWhite min-h-screen overflow-hidden">
       <div className="items-start  lg:w-full p-5 pt-6 flex bg-[linear-gradient(155deg,#1e1e1e,#FBF5E6)] lg:items-center justify-center gap-3.5 h-dvh relative ">
         <div className="w-8/3 h-full ">
           <img
-            src={MyImg}
+            src={myImg}
             className=" trans lg:h-full w-full object-contain rounded-full  bg-[linear-gradient(155deg,#555555,#FBF5E6,#555555)] "
             alt=""
           />

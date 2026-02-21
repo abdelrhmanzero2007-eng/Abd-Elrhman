@@ -1,9 +1,7 @@
 import { useState } from "react"; // 1. استيراد useState
-import { BsCart2 } from "react-icons/bs";
-import { FaRegCircleUser } from "react-icons/fa6";
+
 import { HiMiniBars3 } from "react-icons/hi2";
-import { IoMdHeartEmpty } from "react-icons/io";
-import { IoSearchOutline } from "react-icons/io5";
+
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
