@@ -1,0 +1,61 @@
+@plugin "daisyui";
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@theme {
+  --font-sans: "Titillium Web", sans-serif;
+  --font-Sn: "SN Pro", sans-serif;
+
+  --color-MinGreen: #556b2f; /* زرار ثانوي + أيقونات + عناصر Accent */
+--color-MinGreenDark: #3e4f22; /* Hover للون الزيتوني + خطوط/تحديدات غامقة */
+
+--color-MinWarmWhite: #F2EFE9; /* خلفيات السكاشن الكبيرة + Layout أنيق */
+
+--color-MinWoodYellow: #d9b46a; /* اللون الأساسي للأزرار الرئيسية + Highlights */
+--color-MinWoodGold: #b88a3b; /* Hover للأزرار الرئيسية + Badges + تفاصيل فخمة */
+
+--color-MinTextPrimary: #1e1e1e; /* العناوين الرئيسية + نصوص مهمة */
+--color-MinTextSecondary: #555555; /* وصف المنتجات + Paragraphs */
+--color-MinTextMuted: #8b8b8b; /* نصوص ثانوية جدًا مثل placeholder والملاحظات */
+
+--color-MinBorder: #e8e1d7; /* حدود الكروت + Dividers + خطوط التقسيم */
+}
+
+/* قال Gemini
+استنادًا إلى الصورة الرئيسية، إليكم لوحة ألوان متناسقة للموقع الإلكتروني، تتميز بألوان أساسية مستخرجة من الشخص والخلفية:
+
+اللون الأساسي:
+
+#4A592C (أخضر زيتوني داكن): مستوحى من بنطال الرجل، وحواف سترته، وشريط العنوان. سيُستخدم هذا اللون كلون أساسي للعلامة التجارية وللأزرار والعناوين الرئيسية.
+
+اللون الثانوي:
+
+#BDBCA4 (بيج كاكي فاتح): مُستخرج من الجزء الرئيسي لسترة الرجل. مناسب للعناصر الثانوية والحدود وأجزاء الخلفية.
+
+لون مميز:
+
+#F2EFE9 (كريمي/أبيض فاتح): مأخوذ من الخلفية الفاتحة وقميص الرجل. سيكون هذا هو لون الخلفية الرئيسي ولنص فاتح.
+
+الألوان المحايدة:
+
+#333333 (فحمي داكن/بني): يستخدم لنص الجسم الرئيسي والعناوين الداكنة، مشتق من النص الداكن والظلال العميقة.
+
+#8C8B7E (رمادي داكن متوسط): موجود في خلفية التدرج اللوني. مفيد للترجمات الفرعية، والنصوص الخافتة، والفواصل. */
+
+
+
+@media (max-width: 768px) {
+  .trans{
+
+    width: 100%;
+    translate:-120px 0 ;
+  }
+
+.flexcol{
+  display: none;
+}
+.flexcols{
+  display: flex;
+}
+
+}
