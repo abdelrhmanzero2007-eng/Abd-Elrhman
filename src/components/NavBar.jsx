@@ -6,11 +6,12 @@ import { FaTimes } from "react-icons/fa";
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
-  ];
+const navLinks = [
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "How to Do", path: "/jop" },
+  { name: "Contact", path: "/contact" },
+];
 
   return (
     <nav className="relative w-full bg-[#F2EFE9] shadow-md">

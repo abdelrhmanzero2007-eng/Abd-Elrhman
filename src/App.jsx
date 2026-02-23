@@ -8,6 +8,7 @@ import Shop from "./pages/Shop";
 import MinLayuot from "./components/MinLayuot";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Jop from "./pages/Jop";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="about" element={<About />}></Route>
             <Route path="contact" element={<Contact />}></Route>
             <Route path="shop" element={<Shop />}></Route>
+            <Route path="jop" element={<Jop />}></Route>
           </Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Regstir />}></Route>

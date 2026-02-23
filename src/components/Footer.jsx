@@ -1,4 +1,11 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaEnvelope,
+  FaPhone,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Footer({ className }) {
@@ -34,6 +41,14 @@ export default function Footer({ className }) {
                   className="w-10 h-10 bg-[#4A592C] rounded-full flex items-center justify-center text-[#F2EFE9] hover:bg-[#d9b46a] transition-colors duration-300"
                 >
                   <FaTwitter className="text-lg" />
+                </a>
+                <a
+                  href="https://wa.me/201014050596"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-[#4A592C] rounded-full flex items-center justify-center text-[#F2EFE9] hover:bg-[#25D366] transition-colors duration-300"
+                >
+                  <FaWhatsapp className="text-lg" />
                 </a>
               </div>
             </div>
@@ -100,9 +115,21 @@ export default function Footer({ className }) {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-[#8b8b8b]">
                   <FaEnvelope className="text-[#d9b46a]" />
-                  abdelrhman@example.com
+                  abdelrhman.zero.2007@gmail.com
                 </li>
-                <li className="text-[#8b8b8b]">+20 123 456 7890</li>
+                <li className="flex items-center gap-3 text-[#8b8b8b]">
+                  <FaPhone className="text-[#d9b46a]" />
+                  +20 1014050596
+                </li>
+                <a
+                  href="https://wa.me/201014050596"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-[#8b8b8b] hover:text-[#d9b46a] transition-colors duration-300"
+                >
+                  <FaWhatsapp className="text-[#d9b46a]" />
+                  +20 1014050596
+                </a>
                 <li className="text-[#8b8b8b]">Egypt</li>
               </ul>
             </div>

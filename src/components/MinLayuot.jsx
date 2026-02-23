@@ -7,6 +7,7 @@ export default function MinLayuot() {
     <div className="w-full min-h-screen flex flex-col">
       <NavBar />
       <Outlet />
+      <Footer />
     </div>
   );
 }
